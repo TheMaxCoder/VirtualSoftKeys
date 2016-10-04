@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="300dp"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
     <LinearLayout
@@ -15,14 +16,28 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Permission_draw_overlays_title"
+            android:text="@string/dialog_permissions_title"
+            style="@style/TextAppearance.AppCompat.Body2"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/Permission_draw_overlays_content" />
+            android:padding="8dp"
+            android:text="@string/dialog_permissions_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_permission_draw_title"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/dialog_permission_draw_content" />
 
 
         <ImageView
@@ -43,14 +58,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:text="@string/Permission_accessibility_title"
-            android:textSize="18sp" />
+            android:text="@string/dialog_permission_accessibility_title"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="16sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="@string/Permission_accessibility_content" />
+            android:padding="8dp"
+            android:text="@string/dialog_permission_accessibility_content" />
 
         <ImageView
             android:layout_width="match_parent"
