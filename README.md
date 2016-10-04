@@ -15,7 +15,7 @@ A simple , safe  and easy softKeys ( navigation bar).
 3. Add teaching page
 
 ## Screenshot
-![](/screenshot/1.jpg) 
+![](/screenshot/1.png) 
 ![](/screenshot/2.jpg) 
 
 ##APK
